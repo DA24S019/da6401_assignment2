@@ -1,0 +1,17 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/loggers/wandb.py:397: There is a wandb run already in progress and newly created instances of `WandbLogger` will reuse this run. If this is not desired, call `wandb.finish()` before instantiating `WandbLogger`.
+
+  | Name       | Type             | Params | Mode
+--------------------------------------------------------
+0 | features   | Sequential       | 19.6 K | train
+1 | classifier | Sequential       | 263 K  | train
+2 | loss_fn    | CrossEntropyLoss | 0      | train
+--------------------------------------------------------
+283 K     Trainable params
+0         Non-trainable params
+283 K     Total params
+1.133     Total estimated model params size (MB)
+17        Modules in train mode
+0         Modules in eval mode

@@ -1,0 +1,2988 @@
+Traceback (most recent call last):
+  File "/home/user/Documents/Books/DA24S019_Assignment_2/Part_A/train.py", line 61, in train_sweep
+    model = LitCNN(config)
+            ^^^^^^^^^^^^^^
+  File "/home/user/Documents/Books/DA24S019_Assignment_2/Part_A/lightning_module.py", line 10, in __init__
+    self.save_hyperparameters()
+  File "/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/core/mixins/hparams_mixin.py", line 131, in save_hyperparameters
+    save_hyperparameters(self, *args, ignore=ignore, frame=frame, given_hparams=given_hparams)
+  File "/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/utilities/parsing.py", line 215, in save_hyperparameters
+    obj._hparams_initial = copy.deepcopy(obj._hparams)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/copy.py", line 162, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/copy.py", line 285, in _reconstruct
+    value = deepcopy(value, memo)
+            ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/copy.py", line 162, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/copy.py", line 260, in _reconstruct
+    if hasattr(y, '__setstate__'):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ^^^^^^^^^^^
+RecursionError: maximum recursion depth exceeded

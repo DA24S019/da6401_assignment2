@@ -1,0 +1,28 @@
+wandb_version: 1
+
+activation:
+  value: GELU
+batch_norm:
+  value: false
+batch_size:
+  value: 64
+data_augmentation:
+  value: true
+dropout:
+  value: '0.2'
+epochs:
+  value: 10
+filter_organization:
+  value: double
+filter_size:
+  value: 5
+learning_rate:
+  value: 0.004572514384222734
+num_filters:
+  value: 16
+optimizer:
+  value: RMSprop
+weight_decay:
+  value: 0.005869003354991049
+weight_init:
+  value: xavier

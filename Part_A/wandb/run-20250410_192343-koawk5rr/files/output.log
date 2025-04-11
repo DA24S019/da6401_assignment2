@@ -1,0 +1,20 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+Traceback (most recent call last):
+  File "/tmp/ipykernel_189642/2402509476.py", line 21, in train_sweep
+    trainer.fit(model, datamodule=data_module)
+  File "/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 561, in fit
+    call._call_and_handle_interrupt(
+  File "/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/call.py", line 48, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 599, in _fit_impl
+    self._run(model, ckpt_path=ckpt_path)
+  File "/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/trainer.py", line 962, in _run
+    _verify_loop_configurations(self)
+  File "/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 36, in _verify_loop_configurations
+    __verify_train_val_loop_configuration(trainer, model)
+  File "/home/user/anaconda3/lib/python3.12/site-packages/pytorch_lightning/trainer/configuration_validator.py", line 53, in __verify_train_val_loop_configuration
+    raise MisconfigurationException(
+lightning_fabric.utilities.exceptions.MisconfigurationException: No `training_step()` method defined. Lightning `Trainer` expects as minimum a `training_step()`, `train_dataloader()` and `configure_optimizers()` to be defined.

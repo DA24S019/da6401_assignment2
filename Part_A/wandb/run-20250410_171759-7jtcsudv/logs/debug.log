@@ -1,0 +1,26 @@
+2025-04-10 17:17:59,851 INFO    MainThread:185944 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-04-10 17:17:59,851 INFO    MainThread:185944 [wandb_setup.py:_flush():67] Configure stats pid to 185944
+2025-04-10 17:17:59,851 INFO    MainThread:185944 [wandb_setup.py:_flush():67] Loading settings from /home/user/.config/wandb/settings
+2025-04-10 17:17:59,851 INFO    MainThread:185944 [wandb_setup.py:_flush():67] Loading settings from /home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/settings
+2025-04-10 17:17:59,851 INFO    MainThread:185944 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-10 17:17:59,852 INFO    MainThread:185944 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_171759-7jtcsudv/logs/debug.log
+2025-04-10 17:17:59,852 INFO    MainThread:185944 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_171759-7jtcsudv/logs/debug-internal.log
+2025-04-10 17:17:59,852 INFO    MainThread:185944 [wandb_init.py:monkeypatch_ipython():599] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x783b37ab55e0>
+2025-04-10 17:17:59,852 INFO    MainThread:185944 [wandb_init.py:init():761] calling init triggers
+2025-04-10 17:17:59,852 INFO    MainThread:185944 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'initial_filters': 32, 'filter_size': 3, 'activation_fn': 'ReLU', 'filter_pattern': 'same', 'batch_norm': True, 'dropout': 0.2, 'dense_neurons': 128, 'lr': 0.001, 'batch_size': 32, 'data_augmentation': True, '_wandb': {}}
+2025-04-10 17:17:59,852 INFO    MainThread:185944 [wandb_init.py:init():784] starting backend
+2025-04-10 17:17:59,852 INFO    MainThread:185944 [wandb_init.py:init():788] sending inform_init request
+2025-04-10 17:17:59,854 INFO    MainThread:185944 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-10 17:17:59,855 INFO    MainThread:185944 [wandb_init.py:init():803] backend started and connected
+2025-04-10 17:17:59,861 INFO    MainThread:185944 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-04-10 17:17:59,861 INFO    MainThread:185944 [wandb_init.py:init():896] updated telemetry
+2025-04-10 17:17:59,867 INFO    MainThread:185944 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-04-10 17:18:00,266 ERROR   MainThread:185944 [wandb_init.py:init():1481] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1471, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 968, in init
+    raise error
+wandb.errors.errors.CommError: failed to upsert bucket: returned error 403 Forbidden: {"errors":[{"message":"permission denied","path":["upsertBucket"],"extensions":{"code":"PERMISSION_ERROR"}}],"data":{"upsertBucket":null}}

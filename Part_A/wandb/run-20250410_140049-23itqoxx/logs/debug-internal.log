@@ -1,0 +1,17 @@
+{"time":"2025-04-10T14:00:49.722515758+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"wandb/run-20250410_140049-23itqoxx/logs/debug-core.log"}
+{"time":"2025-04-10T14:00:49.826186666+05:30","level":"INFO","msg":"created new stream","id":"23itqoxx"}
+{"time":"2025-04-10T14:00:49.826211246+05:30","level":"INFO","msg":"stream: started","id":"23itqoxx"}
+{"time":"2025-04-10T14:00:49.82623766+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"23itqoxx"}
+{"time":"2025-04-10T14:00:49.826294765+05:30","level":"INFO","msg":"handler: started","stream_id":"23itqoxx"}
+{"time":"2025-04-10T14:00:49.826341897+05:30","level":"INFO","msg":"sender: started","stream_id":"23itqoxx"}
+{"time":"2025-04-10T14:00:50.366143897+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-10T14:00:50.366205892+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403 Forbidden: {\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-04-10T14:00:50.377982794+05:30","level":"INFO","msg":"stream: closing","id":"23itqoxx"}
+{"time":"2025-04-10T14:00:50.378090386+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-04-10T14:00:50.686399359+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-10T14:00:50.686445346+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project myusername/myproject not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-04-10T14:00:50.686777664+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T14:00:50.68681694+05:30","level":"INFO","msg":"handler: closed","stream_id":"23itqoxx"}
+{"time":"2025-04-10T14:00:50.686858236+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"23itqoxx"}
+{"time":"2025-04-10T14:00:50.686873492+05:30","level":"INFO","msg":"sender: closed","stream_id":"23itqoxx"}
+{"time":"2025-04-10T14:00:50.686896085+05:30","level":"INFO","msg":"stream: closed","id":"23itqoxx"}

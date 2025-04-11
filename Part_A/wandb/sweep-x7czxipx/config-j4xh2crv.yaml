@@ -1,0 +1,28 @@
+wandb_version: 1
+
+activation:
+  value: SiLU
+batch_norm:
+  value: true
+batch_size:
+  value: 64
+data_augmentation:
+  value: true
+dropout:
+  value: '0.2'
+epochs:
+  value: 5
+filter_organization:
+  value: half
+filter_size:
+  value: 3
+learning_rate:
+  value: 0.005885577022594877
+num_filters:
+  value: 64
+optimizer:
+  value: RMSprop
+weight_decay:
+  value: 0.007834648979502663
+weight_init:
+  value: kaiming

@@ -1,0 +1,46 @@
+2025-04-10 15:58:31,098 INFO    MainThread:181610 [wandb_init.py:setup_run_log_directory():647] Logging user logs to ./wandb/run-20250410_155831-fuijrld3/logs/debug.log
+2025-04-10 15:58:31,098 INFO    MainThread:181610 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to ./wandb/run-20250410_155831-fuijrld3/logs/debug-internal.log
+2025-04-10 15:58:31,098 INFO    MainThread:181610 [wandb_init.py:init():761] calling init triggers
+2025-04-10 15:58:31,098 INFO    MainThread:181610 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-10 15:58:31,099 INFO    MainThread:181610 [wandb_init.py:init():784] starting backend
+2025-04-10 15:58:31,099 INFO    MainThread:181610 [wandb_init.py:init():788] sending inform_init request
+2025-04-10 15:58:31,100 INFO    MainThread:181610 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-10 15:58:31,101 INFO    MainThread:181610 [wandb_init.py:init():803] backend started and connected
+2025-04-10 15:58:31,108 INFO    MainThread:181610 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-04-10 15:58:31,109 INFO    MainThread:181610 [wandb_init.py:init():896] updated telemetry
+2025-04-10 15:58:31,113 INFO    MainThread:181610 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-04-10 15:58:49,829 WARNING MainThread:181610 [wandb_init.py:init():1475] interrupted
+Traceback (most recent call last):
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1471, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 946, in init
+    result = wait_with_progress(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 23, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 86, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/home/user/anaconda3/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_155906-5n3lhyqj/logs/debug.log
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_155906-5n3lhyqj/logs/debug-internal.log
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:init():761] calling init triggers
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:init():784] starting backend
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:init():788] sending inform_init request
+2025-04-10 15:59:06,503 INFO    MainThread:181610 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-10 15:59:06,504 INFO    MainThread:181610 [wandb_init.py:init():803] backend started and connected
+2025-04-10 15:59:06,510 INFO    MainThread:181610 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-04-10 15:59:06,510 INFO    MainThread:181610 [wandb_init.py:init():896] updated telemetry
+2025-04-10 15:59:06,517 INFO    MainThread:181610 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout

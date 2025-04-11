@@ -1,0 +1,8 @@
+{"time":"2025-04-10T17:13:05.194887884+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_171305-gazok53a/logs/debug-core.log"}
+{"time":"2025-04-10T17:13:05.299249488+05:30","level":"INFO","msg":"created new stream","id":"gazok53a"}
+{"time":"2025-04-10T17:13:05.299312317+05:30","level":"INFO","msg":"stream: started","id":"gazok53a"}
+{"time":"2025-04-10T17:13:05.299396467+05:30","level":"INFO","msg":"handler: started","stream_id":"gazok53a"}
+{"time":"2025-04-10T17:13:05.299398325+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gazok53a"}
+{"time":"2025-04-10T17:13:05.299454748+05:30","level":"INFO","msg":"sender: started","stream_id":"gazok53a"}
+{"time":"2025-04-10T17:13:05.725244345+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T17:13:06.427124252+05:30","level":"INFO","msg":"Pausing system monitor"}

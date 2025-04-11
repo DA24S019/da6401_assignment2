@@ -1,0 +1,31 @@
+{
+  "os":  "Linux-6.8.0-57-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.4",
+  "startedAt":  "2025-04-10T10:29:53.211144Z",
+  "program":  "/home/user/Documents/Books/DA24S019_Assignment_2/Part_A/datset.ipynb",
+  "codePath":  "Part_A/datset.ipynb",
+  "git":  {
+    "remote":  "git@github.com:DA24S019/da6401_assignment2.git",
+    "commit":  "132fc924e1341afd524fbb597f020e9899c985ce"
+  },
+  "email":  "da24s019@smail.iitm.ac.in",
+  "root":  "/home/user/Documents/Books/DA24S019_Assignment_2/Part_A",
+  "host":  "user-Precision-Tower-3620",
+  "executable":  "/home/user/anaconda3/bin/python",
+  "codePathLocal":  "datset.ipynb",
+  "cpu_count":  4,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "982820896768",
+      "used":  "136165822464"
+    }
+  },
+  "memory":  {
+    "total":  "33545674752"
+  },
+  "cpu":  {
+    "count":  4,
+    "countLogical":  8
+  }
+}

@@ -1,0 +1,12 @@
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_155906-5n3lhyqj/logs/debug.log
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_155906-5n3lhyqj/logs/debug-internal.log
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:init():761] calling init triggers
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:init():784] starting backend
+2025-04-10 15:59:06,501 INFO    MainThread:181610 [wandb_init.py:init():788] sending inform_init request
+2025-04-10 15:59:06,503 INFO    MainThread:181610 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-10 15:59:06,504 INFO    MainThread:181610 [wandb_init.py:init():803] backend started and connected
+2025-04-10 15:59:06,510 INFO    MainThread:181610 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2025-04-10 15:59:06,510 INFO    MainThread:181610 [wandb_init.py:init():896] updated telemetry
+2025-04-10 15:59:06,517 INFO    MainThread:181610 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout

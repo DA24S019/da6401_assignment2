@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/user/anaconda3/lib/python3.12/site-packages/lightning_fabric/utilities/data.py", line 488, in __getattr__
+    return self[key]
+           ~~~~^^^^^
+KeyError: 'initial_filters'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_189123/970469749.py", line 5, in train_sweep
+    model = LitCNN(**config)  # ✅ Now safely unpacks into save_hyperparameters()
+            ^^^^^^^^^^^^^^^^
+  File "/tmp/ipykernel_189123/2095113205.py", line 6, in __init__
+    filters = [self.hparams.initial_filters]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/anaconda3/lib/python3.12/site-packages/lightning_fabric/utilities/data.py", line 490, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{key}'") from e
+AttributeError: 'AttributeDict' object has no attribute 'initial_filters'

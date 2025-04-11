@@ -1,0 +1,16 @@
+{"time":"2025-04-10T21:04:57.883621328+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_210457-4e5k6el2/logs/debug-core.log"}
+{"time":"2025-04-10T21:04:57.988071559+05:30","level":"INFO","msg":"created new stream","id":"4e5k6el2"}
+{"time":"2025-04-10T21:04:57.988145302+05:30","level":"INFO","msg":"stream: started","id":"4e5k6el2"}
+{"time":"2025-04-10T21:04:57.988185761+05:30","level":"INFO","msg":"handler: started","stream_id":"4e5k6el2"}
+{"time":"2025-04-10T21:04:57.988232905+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4e5k6el2"}
+{"time":"2025-04-10T21:04:57.988262285+05:30","level":"INFO","msg":"sender: started","stream_id":"4e5k6el2"}
+{"time":"2025-04-10T21:04:58.374121189+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T21:04:59.377701778+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T21:04:59.378408145+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T21:04:59.838072227+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.132314914,"progress":"165.0KB/165.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.132308548,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-04-10T21:05:00.93896082+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T21:05:02.378493898+05:30","level":"INFO","msg":"stream: closing","id":"4e5k6el2"}
+{"time":"2025-04-10T21:05:02.378522677+05:30","level":"INFO","msg":"handler: closed","stream_id":"4e5k6el2"}
+{"time":"2025-04-10T21:05:02.378540579+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4e5k6el2"}
+{"time":"2025-04-10T21:05:02.378595658+05:30","level":"INFO","msg":"sender: closed","stream_id":"4e5k6el2"}
+{"time":"2025-04-10T21:05:02.37861319+05:30","level":"INFO","msg":"stream: closed","id":"4e5k6el2"}

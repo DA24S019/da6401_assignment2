@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/tmp/ipykernel_189578/2277138019.py", line 10, in train_sweep
+    augment=config["data_augmentation"]
+            ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'data_augmentation'

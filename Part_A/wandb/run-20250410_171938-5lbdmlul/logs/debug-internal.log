@@ -1,0 +1,8 @@
+{"time":"2025-04-10T17:19:38.714777972+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/home/user/Documents/Books/DA24S019_Assignment_2/Part_A/wandb/run-20250410_171938-5lbdmlul/logs/debug-core.log"}
+{"time":"2025-04-10T17:19:38.819090078+05:30","level":"INFO","msg":"created new stream","id":"5lbdmlul"}
+{"time":"2025-04-10T17:19:38.819124168+05:30","level":"INFO","msg":"stream: started","id":"5lbdmlul"}
+{"time":"2025-04-10T17:19:38.819144338+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5lbdmlul"}
+{"time":"2025-04-10T17:19:38.819149601+05:30","level":"INFO","msg":"sender: started","stream_id":"5lbdmlul"}
+{"time":"2025-04-10T17:19:38.819158468+05:30","level":"INFO","msg":"handler: started","stream_id":"5lbdmlul"}
+{"time":"2025-04-10T17:19:39.176006901+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T17:19:39.790205754+05:30","level":"INFO","msg":"Pausing system monitor"}
