@@ -1,5 +1,0 @@
-Traceback (most recent call last):
-  File "/tmp/ipykernel_189123/970469749.py", line 9, in train_sweep
-    batch_size=config["batch_size"],
-               ~~~~~~^^^^^^^^^^^^^^
-KeyError: 'batch_size'
